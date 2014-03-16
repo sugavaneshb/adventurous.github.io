@@ -1,0 +1,22 @@
+An idea for in50hrs
+
+Workflows:
+
+1. search -> search results -> trails -> events
+
+Pages:
+
+1. Trails
+2. Sports
+3. Events
+4. Communities
+5. Groups
+6. Upcoming events based on map
+
+
+To do:
+
+1. Build the basic workflow
+2. Add upcoming events and hot trails in home page
+3. Add voice support in home page
+4. Add DOM to link pages and perform appropriate actions 
