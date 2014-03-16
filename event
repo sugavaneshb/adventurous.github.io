@@ -3,8 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>adventuro.us</title>
-	<script type="text/javascript" src="js/main.js"></script>
-	
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -13,12 +11,12 @@
 		
 	<div class="row">
 				<div class="col-md-6 col-lg-6 logo">
-					<a href="index.html"><h1 style="color:white">adventuro.us</h1></a>	
+					<h1 style="color:white">adventuro.us</h1>	
 				</div>
 					<div style="margin-left:100px"class="col-md-6 col-lg-6">
-					<a class="btn btn-default" href="destination.html" role="button">Destinations</a>
-					<a class="btn btn-default" href="community.html" role="button">Community</a>
-					<a class="btn btn-default" href="event.html" role="button">Events</a>
+					<a class="btn btn-default" href="#" role="button">Destinations</a>
+					<a class="btn btn-default" href="#" role="button">Community</a>
+					<a class="btn btn-default" href="#" role="button">Events</a>
 					</div>
 					</div>
 				</br>
@@ -28,14 +26,14 @@
 	 </div>
   <div class="col-sm-6 col-md-4">
 	<section class="card">
-	  <a href="edit.html"><h1><strong>Nagala</br></strong></h1></a>
+	  <h1><strong>A difficult trek - Nachiketha</br></strong></h1>
 	  <div class="left">
 	  <p>Nagalapuram is a village and a Mandal in Chittoor district </br>in the state of Andhra Pradesh in India.</p>
 	  	<img class="type" src="img/trek.png">
 	  	<img class="type" src="img/camp.png">
 	  </div>
 	  <div class="right">
-	  <p id="location">13.4000°N 79.7833°E</p></br>
+	  <p id="location">Mar 15 – 16, 2014</p></br>
 	  <p id="level">Moderate</p></br>
 	  <p id="period">6 Days</p></br>
 	  </div>
@@ -53,14 +51,14 @@
   </div>
   <div class="col-sm-6 col-md-4">
 	<section class="card">
-	  <h1><strong>Yercaud</br></strong></h1>
+	  <h1><strong>CTC - Wildlife Observatory trip to Agumbe</br></strong></h1>
 	  <div class="left">
 	  <p>Yercaud is a hill station in Salem District, in Tamil Nadu, India. It is located in the Shevaroys range of hills in the Eastern Ghats; the Yercaud hill area is called the Shevaroy Hills.</p>
 	  	<img class="type" src="img/trek.png">
 	  	<img class="type" src="img/camp.png">
 	  </div>
 	  <div class="right">
-	  <p id="location">11.7794°N 78.2034°E</p></br>
+	  <p id="location">Mar 28 – 31, 2014</p></br>
 	  <p id="level">Easy</p></br>
 	  <p id="period">2 Days</p></br>
 	  </div>

@@ -2,17 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title class="logo">adventuro.us</title>
+	<title>adventuro.us</title>
+	<script type="text/javascript" src="js/main.js"></script>
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="col-md-12 col-lg-12 logo">
-	<h1 style="color:white">adventuro.us</h1>	
+	<div class="row">
+				<div class="col-md-6 col-lg-6 logo">
+					<a href="index.html"><h1 style="color:white">adventuro.us</h1>	</a>
+				</div>
+				<div style="margin-right:30px ;margin-top: -50px"class="col-md-6 col-lg-6 right">
+					<a class="btn btn-default" href="dashboard.html" role="button">Destinations</a>
+					<a class="btn btn-default" href="community.html" role="button">Community</a>
+					<a class="btn btn-default" href="event.html" role="button">Events</a>
+				</div>
 	</div>
-	<div class="col-md-8 col-lg-8 search">
-		<input placeholder="Location" x-webkit-speech autocomplete="on" />
-	 </div>
+				</br>
+	<div class="col-md-8 col-lg-8 search" id="search_widget">
+		<input placeholder="Explore!" x-webkit-speech autocomplete="on" />
+	</div>
+
+	<div class="footer">
+		<h3><a href="events.html">7</a> daring adventures this weekend. What are you upto?</h3>
+	</div>
 </body>
 </html>

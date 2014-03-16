@@ -88,7 +88,13 @@ input:focus + header {
     opacity:0;
   }
 }
+.cm{
+  width: 150px;
+  height: 130px;
+  margin-left: 200px;
+  margin-top: 100px;
 
+}
 .card:after {
   position:absolute;
   font-size:.9rem;
@@ -121,10 +127,9 @@ h2 {
 }
 
 .picture {
-  height:166px;
   background:#66666;
-  margin:.5rem 0 0 -1.5rem;
-  width:250px;
+  width:200px;
+  height: 133px;
 
 }
 
@@ -135,4 +140,98 @@ h2 {
 
 .logo {
     margin-left: 50px;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.container{
+  width: 800px;
+}
+
+.container2{
+  width: 100%;
+}
+
+.container3{
+  float: right;
+}
+
+.type{
+  width: 50px;
+  height: 50px;
+}
+
+.card1{
+  width:50%;
+  float: left;
+}
+
+.card2{
+  width:50%;
+  float: right;
+}
+.pos{
+  margin-left: 140px;
+}
+
+#images {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  
+  margin: 20px auto;
+}
+#images img {
+  width: 400px;
+  height: 250px;
+  
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 1;
+  opacity: 0;
+  
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+#images img:first-child {
+  left: 0;
+  opacity: 1;
+}
+#slider a {
+  text-decoration: none;
+  background: #E3F1FA;
+  border: 1px solid #C6E4F2;
+  padding: 4px 6px;
+  color: #222;
+}
+#slider a:hover {
+  background: #C6E4F2;
+}
+
+#image {
+  width: 600px;
+  height: 250px;
+}
+
+.footer{
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 350px;
+  font-family: 'Covered By Your Grace', cursive, sans-serif;
+  color: white;
 }
