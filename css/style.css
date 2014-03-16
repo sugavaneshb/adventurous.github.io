@@ -138,8 +138,8 @@ h2 {
 }
 
 .search{
-  margin-top: 300px;
-  margin-left: 580px;
+  margin-top: 15%;
+  margin-left: 45%;
 }
 
 .logo {
@@ -235,8 +235,8 @@ h2 {
 }
 
 .footer{
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   margin-top: 60px;
-  margin-left: 550px;
+  margin-left: 45%;
   font-family: 'Covered By Your Grace', cursive, sans-serif;
 }
